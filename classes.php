@@ -58,9 +58,9 @@ $categoryDogs = new Category("Dogs", "./img/dog.png");
 $product1 = new Product("Cats Food", $categoryCats, 10);
 $product2 = new Product("Dogs Food", $categoryDogs, 20);
 $product3 = new Product("Cats Couch", $categoryCats, 30);
-$product4 = new Product("Cats Call", $categoryCats, 10);
+$product4 = new Product("Cats Ball", $categoryCats, 10);
 $product5 = new Product("Dogs Game", $categoryDogs, 20);
-$product6 = new Product("Cats Mouse", $categoryCats, 30);
+$product6 = new Product("Cats Game", $categoryCats, 30);
 
 // Array dei prodotti
 $products = [$product1, $product2, $product3, $product4, $product5, $product6];
